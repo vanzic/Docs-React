@@ -118,7 +118,7 @@ const Foreground = () => {
           setIsOpen(true);
           current = template;
         }}
-        className={`text-zinc-300 z-10 text-[150%] h-auto border-[1px] ${newHover ? 'bg-zinc-300 text-zinc-900' : 'bg-zinc-800'} border-zinc-600 rounded-full absolute flex justify-center px-10 py-2 bottom-20 left-[50%] translate-x-[-50%] transition-all duration-500`}
+        className={`text-zinc-300 z-10 text-[150%] h-auto border-[1px] ${newHover ? 'bg-zinc-300 text-zinc-900' : 'bg-zinc-800'} border-zinc-600 rounded-full absolute flex justify-center px-10 py-2 bottom-20 left-[50%] translate-x-[-50%] transition-all duration-500 whitespace-nowrap`}
       >
         Create New
       </div>
